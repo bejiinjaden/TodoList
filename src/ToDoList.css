@@ -1,0 +1,11 @@
+.todo-container {
+  display: flex;
+  
+}
+
+/* For mobile devices (screens smaller than 768px) */
+@media screen and (max-width: 1000px) {
+  .todo-container {
+    flex-direction: column;
+  }
+} 
